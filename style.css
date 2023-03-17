@@ -1,0 +1,25 @@
+:root {
+    --dimension: 10;
+
+}
+
+
+
+.main {
+    display: grid;
+    height: 1000px;
+    width: 1000px;
+    margin: 15rem;
+    border-style: solid;
+    grid-template-columns:
+        repeat(var(--dimension), 1fr);
+    grid-template-rows:
+        repeat(var(--dimension), 1fr);
+}
+
+
+.chosen {
+    background-color: black;
+    color: black;
+    
+}
